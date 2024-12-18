@@ -1,0 +1,46 @@
+
+html, body {
+    height: 100%;
+    background-image: url("QYwcBcR-christmas-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+  h1 {
+    font-family: Source Sans Pro;
+    font-weight: 600;
+    font-size: 72px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: red;
+  }
+
+  #apiResponse {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+  }
+
+  #apiResponseAnswer {
+    display: none;
+  }
+
+  #apiResponseAnswer.show {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+    color:green
+  }
+
+  form {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  #wait {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+  }
